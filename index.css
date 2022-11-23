@@ -1,0 +1,70 @@
+body{
+    background-color:rgb(181, 236, 237);
+}
+
+
+.main-container{
+    background-color: antiquewhite;
+    flex: 1 1 0%;
+    border-radius: 2rem;
+
+}
+
+input , button{
+    border: none;
+    appearance: none;
+    outline: none;
+    background: none;
+
+}
+
+.task_form{
+    display: flex;
+}
+
+.new_input{
+    flex: 1 1 0%;
+    background-color: rgb(240, 141, 141);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    color: black;
+    font-size: 1.25rem;
+}
+
+.task-container{
+    padding: 2rem;
+    /* flex: content; */
+    width: 75%;
+}
+
+.submit{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: rgb(237, 110, 5);
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+
+.submit:hover{
+    opacity: 0.7;
+}
+
+
+.list-container{
+    
+    border-radius: 1rem;
+    padding: 0rem 2rem;
+    width: 75%;
+}
+
+.list-input{
+    flex: 1 1 0%;
+    background-color: rgb(246, 218, 134);
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    color: black;
+    font-size: 1.25rem;
+}
